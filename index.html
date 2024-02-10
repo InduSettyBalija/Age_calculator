@@ -9,36 +9,42 @@
 <body>
   <div class="bg-con">
     <div class="shadow card">
-      <form id="ageForm" class="input-con">
-        <div>
-          <label class="label">Day</label><br>
-          <input id="day" class="input" type="text" placeholder="DD">
-          <p id="dayError"></p>
-        </div>
-        <div>
-          <label class="label">Month</label><br>
-          <input id="month" class="input" type="text" placeholder="MM">
-          <p id="monthError"></p>
-        </div>
-        <div>
-          <label class="label">Year</label><br>
-          <input id="year" class="input" type="text" placeholder="YYYY">
-          <p id="yearError"></p>
-        </div>
-      </form>
-      <div class="break-con">
-        <div>
-          <hr class="line-break">
-        </div>
-       
-          <button id="btn" class="btn">Calculate</button>
-
-      </div>
-
-      <p class="age-desc"><span id="resultInYears" class="age"> - -</span> years</p>
-      <p class="age-desc"><span class="age" id="resultInMonths"> - -</span> months</p>
-      <p class="age-desc"><span class="age" id="resultInDays"> - -</span> days</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <form id="ageForm" class="input-con">
+              <div>
+                <label class="label">Day</label><br>
+                <input id="day" class="input" type="text" placeholder="DD">
+                <p id="dayError"></p>
+              </div>
+              <div>
+                <label class="label">Month</label><br>
+                <input id="month" class="input" type="text" placeholder="MM">
+                <p id="monthError"></p>
+              </div>
+              <div>
+                <label class="label">Year</label><br>
+                <input id="year" class="input" type="text" placeholder="YYYY">
+                <p id="yearError"></p>
+              </div>
+            </form>
+            <div class="break-con">
+              <div>
+                <hr class="line-break">
+              </div>
+             
+                <button id="btn" class="btn">Calculate</button>
       
+            </div>
+      
+            <p class="age-desc"><span class="age" id="resultInYears"> - -</span> years</p>
+            <p class="age-desc"><span class="age" id="resultInMonths"> - -</span> months</p>
+            <p class="age-desc"><span class="age" id="resultInDays"> - -</span> days</p>
+
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <script src="script.js"></script>

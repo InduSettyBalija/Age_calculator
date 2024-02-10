@@ -7,6 +7,7 @@
 }
 .card{
     width:40%;
+    height:20%;
     background-color: hsl(0, 0%, 100%);
     border-radius: 10px;
     padding:20px;
@@ -41,7 +42,7 @@
     color: hsl(0, 1%, 44%);
 }
 .line-break{
-    width:380px;
+    width:350px;
 }
 .logo{
     width:30px;
