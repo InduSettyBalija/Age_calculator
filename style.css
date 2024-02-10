@@ -1,7 +1,8 @@
 .bg-con{
     background-color: hsl(0, 0%, 94%);
-    padding-top: 180px;
-    padding-bottom: 180px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-size: cover;
     
 }
 .card{
@@ -11,8 +12,6 @@
     padding:20px;
     border-bottom-right-radius: 50px;
     margin:auto;
-   
-
 }
 .input-con{
     display: flex;
